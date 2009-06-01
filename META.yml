@@ -1,0 +1,31 @@
+---
+name: Hash-WithDefaults
+version: 0.05
+author:
+  - 'Jenda Krynicky <Jenda@Krynicky.cz>'
+abstract: class for hashes with key-casing requirements supporting defaults
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+build_requires:
+  Test::More: 0
+provides:
+  Hash::WithDefaults:
+    file: lib/Hash/WithDefaults.pm
+    version: 0.05
+  Hash::WithDefaults::lower:
+    file: lib/Hash/WithDefaults.pm
+  Hash::WithDefaults::preserve:
+    file: lib/Hash/WithDefaults.pm
+  Hash::WithDefaults::sensitive:
+    file: lib/Hash/WithDefaults.pm
+  Hash::WithDefaults::tolower:
+    file: lib/Hash/WithDefaults.pm
+  Hash::WithDefaults::toupper:
+    file: lib/Hash/WithDefaults.pm
+  Hash::WithDefaults::upper:
+    file: lib/Hash/WithDefaults.pm
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

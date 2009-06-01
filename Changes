@@ -6,3 +6,9 @@ Revision history for Perl extension Hash::WithDefaults.
 
 0.04  Thu Dec 5 13:22 2002 (CET)
 	- made public
+
+0.05  Sun May 31 2002
+	- -w clean
+	- tests
+	- changed to Module::Build
+	- a few fixes
